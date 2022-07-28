@@ -7,6 +7,8 @@ Also given an integer W which represents knapsack capacity,
 find out the maximum value subset of val[] such that
  sum of the weights of this subset is smaller than or equal to W.
   You cannot break an item, either pick the complete item or dont pick it (0-1 property)."""
+#nilesh
+#shubham
 def knapsack(wt,val,w,n):
     if n==0 or w==0:
         return 0
@@ -26,5 +28,5 @@ w = 50
 n = len(val)
 k=[[-1 for i in range(w+1)] for j in range((n+1))]
 print(knapsack(wt,val,w,n))
-    
+
 
